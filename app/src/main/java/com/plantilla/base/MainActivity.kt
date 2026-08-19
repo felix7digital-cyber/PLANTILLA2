@@ -2,6 +2,7 @@ package com.plantilla.base
 
 import android.app.Activity
 import android.os.Bundle
+import android.view.Gravity
 import android.widget.TextView
 
 class MainActivity : Activity() {
@@ -9,12 +10,12 @@ class MainActivity : Activity() {
         super.onCreate(savedInstanceState)
         
         val textView = TextView(this).apply {
-            text = "¡Plantilla Maestra Lista para Producción!"
-            textSize = 22f
-            setPadding(40, 40, 40, 40)
+            text = "🚀 ¡Software de Alto Nivel Creado Desde el Celular!\n\nBienvenido a mi nueva aplicación independiente."
+            textSize = 24f
+            gravity = Gravity.CENTER
+            setPadding(50, 100, 50, 50)
         }
         
         setContentView(textView)
     }
 }
-
